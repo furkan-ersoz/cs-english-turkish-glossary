@@ -1,0 +1,13 @@
+Update - 2025-02-19
+
+Updates:
+
+- Removed CHECK constraint from words table.
+
+- Created a new table masters to store master categories.
+
+- Updated words table to reference masters table using a FOREIGN KEY.
+
+Reasons:
+
+- Using a separate masters table improves flexibility.
